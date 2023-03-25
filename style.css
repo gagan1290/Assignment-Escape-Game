@@ -3,7 +3,7 @@
   height: 500px;
   border: 1px solid blue;
   margin: auto;
-  background-image: url(imgs/stage.png);
+  background-image: url(stage.png);
   position: relative;
 }
 body {
@@ -12,7 +12,7 @@ body {
 #me {
   height: 100px;
   width: 70px;
-  background-image: url(imgs/images.png);
+  background-image: url(images.png);
   position: absolute;
   top: 75%;
   left: 250px;
@@ -47,7 +47,7 @@ body {
   height: 50px;
   width: 50px;
   color: red;
-  background-image: url(imgs/Assignment.png);
+  background-image: url(Assignment.png);
   position: absolute;
   top: 80%;
   left: 95%;
