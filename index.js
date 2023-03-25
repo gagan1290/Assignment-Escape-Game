@@ -57,7 +57,7 @@ isAlive = setInterval(function () {
 bgMusic.play();
 document.addEventListener("keydown", function (event) {
   if (event.code === "Space") {
-    bgMusic2.play();
     jump();
+    bgMusic2.play();
   }
 });
