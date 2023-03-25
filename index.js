@@ -3,7 +3,7 @@ const assignment = document.getElementById("assignment");
 const stage = document.getElementById("game");
 const bgMusic = new Audio("Super Mario.mp3");
 const bgMusic1 = new Audio("Death.mp3");
-const bgMusic2 = new Audio("jump.mp3");
+const bgMusic2 = new Audio("Jump.mp3");
 bgMusic.loop = true;
 
 function jump() {
