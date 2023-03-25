@@ -1,9 +1,9 @@
 const me = document.getElementById("me");
 const assignment = document.getElementById("assignment");
 const stage = document.getElementById("game");
-const bgMusic = new Audio("music/Super Mario.mp3");
-const bgMusic1 = new Audio("music/Death.mp3");
-const bgMusic2 = new Audio("music/jump.mp3");
+const bgMusic = new Audio("Super Mario.mp3");
+const bgMusic1 = new Audio("Death.mp3");
+const bgMusic2 = new Audio("jump.mp3");
 bgMusic.loop = true;
 
 function jump() {
