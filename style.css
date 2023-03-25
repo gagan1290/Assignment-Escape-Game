@@ -1,0 +1,113 @@
+#game {
+  width: 100%;
+  height: 500px;
+  border: 1px solid blue;
+  margin: auto;
+  background-image: url(imgs/stage.png);
+  position: relative;
+}
+body {
+  margin: 0;
+}
+#me {
+  height: 100px;
+  width: 70px;
+  background-image: url(imgs/images.png);
+  position: absolute;
+  top: 75%;
+  left: 250px;
+}
+
+.jump {
+  animation: jump 0.5s linear;
+}
+
+@keyframes jump {
+  0% {
+    top: 70%;
+  }
+  20% {
+    top: 60%;
+  }
+  40% {
+    top: 50%;
+  }
+  60% {
+    top: 40%;
+  }
+  80% {
+    top: 50%;
+  }
+  100% {
+    top: 70%;
+  }
+}
+
+#assignment {
+  height: 50px;
+  width: 50px;
+  color: red;
+  background-image: url(imgs/Assignment.png);
+  position: absolute;
+  top: 80%;
+  left: 95%;
+  animation: moving 1.9s infinite;
+}
+#cloud1 {
+  height: 50px;
+  width: 50px;
+  background-image: url(imgs/cloud.png);
+  position: absolute;
+  top: 20%;
+  left: 95%;
+  animation: move 20s infinite;
+}
+
+@keyframes move {
+  0% {
+    left: 95%;
+    transform: scale(1, 1) translateY(-10%);
+  }
+  30% {
+    left: 20%;
+    transform: scale(1.2, 1.2) translateY(-20%);
+  }
+  50% {
+    left: 5%;
+    transform: scale(0.8, 0.8) translateY(-5%);
+  }
+  70% {
+    left: 50%;
+    transform: scale(1.5, 1.5) translateY(-30%);
+  }
+  100% {
+    left: 0;
+    transform: scale(1, 1) translateY(-10%);
+  }
+}
+
+@keyframes moving {
+  0% {
+    left: 95%;
+  }
+  100% {
+    left: -10%;
+  }
+}
+
+#score {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+span {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
