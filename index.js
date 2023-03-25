@@ -9,7 +9,7 @@ bgMusic.loop = true;
 function jump() {
   if (me.classList != "jump") {
     me.classList.add("jump");
-
+    bgMusic2.play();
     setTimeout(function () {
       me.classList.remove("jump");
     }, 500);
